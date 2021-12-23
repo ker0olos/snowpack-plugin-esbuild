@@ -13,7 +13,11 @@ npm install snowpack-plugin-esbuild --save-dev
       'snowpack-plugin-esbuild',
       {
         input: ['.js', '.mjs', '.jsx', '.ts', '.tsx'],
-        // https://esbuild.github.io/api/#simple-options
+        
+        /**
+        * https://esbuild.github.io/api/#simple-options
+        * @type { import('esbuild').TransformOptions }
+        */
         options: {
           loader: 'jsx'
           target: [ 'es6' ]
