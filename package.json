@@ -1,0 +1,24 @@
+{
+  "name": "snowpack-plugin-esbuild",
+  "version": "1.0.0",
+  "description": "Snowpack plugin for esbuild",
+  "main": "plugin.js",
+  "dependencies": {
+    "esbuild": "^0.14.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ker0olos/snowpack-plugin-esbuild.git"
+  },
+  "keywords": [
+    "snowpack",
+    "snowpack-plugin",
+    "esbuild",
+    "snowpack-esbuild",
+    "snowpack-plugin-esbuild"
+  ],
+  "authors": [
+    "Kerolos Zaki"
+  ],
+  "license": "MIT"
+}
