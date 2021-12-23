@@ -8,8 +8,8 @@ npm install snowpack-plugin-esbuild --save-dev
 // snowpack.config.mjs
 {
   plugins: [
+    // ...
     [
-      // ...
       'snowpack-plugin-esbuild',
       {
         input: ['.js', '.mjs', '.jsx', '.ts', '.tsx'],
